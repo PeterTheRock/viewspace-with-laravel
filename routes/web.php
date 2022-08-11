@@ -24,6 +24,10 @@ Route::get('/viewspace', function () {
             ['type'=>'Cloud','base'=>'Send Email'],
             ['type'=>'Networking','base'=>'Check online friends']
         ];
-    return view('viewspace', ['internet'=>$internet]);
+        $welcomesentence = ['object302'=>'properties',
+                            'object301'=>'Menu'                     
+        
+    ];
+    return view('viewspace', ['internet'=>$internet], $welcomesentence);
 });
 

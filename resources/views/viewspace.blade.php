@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-<!--below must be difined as a section of content-->
+<!--below must be defined as a section of content-->
 @section('sectionone')<!--Section we want to dump into our layouts.php-->
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
@@ -35,8 +35,8 @@
                    <p>{{$viewspaces[$i]['type']}}</p>
                    @endfor -->
                 
-                   @foreach($internet -> as $comment)
-                   <div>{{$loop->index}} {{$comment['type']}} - {{$comment['base']}}
+                   @foreach($internet as $newInternet)
+                   <div>{{$loop->index}} {{$newInternet['type']}} - {{$newInternet['base']}}
                     
 
                     @if($loop->first)
@@ -44,8 +44,13 @@
                     @endif
                    </div>
                    @endforeach
-                 
+                   <div>
+                    @for($welcomesentence)
+                    {{$welcomesentence['object']}}
+                   </div>
+                 @endfor
                 </div> The code in the loop is not working for some reason, going to keep moving on
+                
             </div>
             <!--allows us to yield a specified '@Section' all content from a section is kept here after Laravel processing-->@yield('sectionone')
         </div>
