@@ -16,7 +16,8 @@
             <div class="content">
                 <div class="title m-b-md">
                     ViewSpace </br>
-                   <h6>Express Your Thoughts</h6>
+                   <h6>Listen & Watch</h6>
+                   <p>News from around the globe Unfiltered and Uncorrupt</p>
                 </div>
 
                 <div class="links">
