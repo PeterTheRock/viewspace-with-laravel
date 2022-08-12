@@ -12,7 +12,7 @@
                     @endif
                 </div>
             @endif
-
+@endsection
             <div class="content">
                 <div class="title m-b-md">
                     ViewSpace </br>
