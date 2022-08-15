@@ -3,7 +3,9 @@ return [
     'bugsnag' => [
     'api_key' => env('BUGSNAG_API_KEY')
     ]
+    
     ];
+    
 
 return [
 
@@ -37,3 +39,4 @@ return [
     ],
 
 ];
+
