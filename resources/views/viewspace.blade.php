@@ -18,6 +18,7 @@
                     ViewSpace </br>
                    <h6>Listen & Watch</h6>
                    <p>News from around the globe Unfiltered and Uncorrupt</p>
+                   <p>This page is designed to help developers learn how to code better and more effecient</p>
                 </div>
 
                 <div class="links">
